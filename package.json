@@ -1,5 +1,5 @@
 {
-  "name": "lwc-dashboard",
+  "name": "lwc",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:lwc-dashboard": "node dist/lwc-dashboard/server/server.mjs"
+    "serve:ssr:lwc": "node dist/lwc/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,

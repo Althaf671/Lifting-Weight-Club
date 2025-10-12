@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lwc-dashboard": {
+    "lwc": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -66,10 +66,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "lwc-dashboard:build:production"
+              "buildTarget": "lwc:build:production"
             },
             "development": {
-              "buildTarget": "lwc-dashboard:build:development"
+              "buildTarget": "lwc:build:development"
             }
           },
           "defaultConfiguration": "development"
