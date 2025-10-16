@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-finance',
-  standalone: false,
+  imports: [],
   templateUrl: './finance.html',
   styleUrl: './finance.scss'
 })

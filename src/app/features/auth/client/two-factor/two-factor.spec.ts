@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Setting } from './setting';
+import { TwoFactor } from './two-factor';
 
-describe('Setting', () => {
-  let component: Setting;
-  let fixture: ComponentFixture<Setting>;
+describe('TwoFactor', () => {
+  let component: TwoFactor;
+  let fixture: ComponentFixture<TwoFactor>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Setting]
+      imports: [TwoFactor]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Setting);
+    fixture = TestBed.createComponent(TwoFactor);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

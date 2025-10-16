@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-management',
-  standalone: false,
+  imports: [],
   templateUrl: './management.html',
   styleUrl: './management.scss'
 })

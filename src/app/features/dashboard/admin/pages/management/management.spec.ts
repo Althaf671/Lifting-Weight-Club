@@ -8,7 +8,7 @@ describe('Management', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [Management]
+      imports: [Management]
     })
     .compileComponents();
 

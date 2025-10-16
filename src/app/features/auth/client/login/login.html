@@ -1,0 +1,96 @@
+<div class="login-page">
+
+    <!-- Login form -->
+    <app-forms 
+        title="Sign In" 
+        description="New user?"
+        miscDescription="Create an Account"
+    >
+   
+        <!-- Form body -->
+        <div class="body-form">
+            
+            <!-- Input container 1 -->
+            <div class="input-container">
+                <div class="inner-input-container">
+                    <lucide-icon 
+                        [img]="Email" 
+                        [size]="20"
+                        class="lucide-icon">
+                    </lucide-icon>
+                    <input 
+                        name="email"
+                        type="email"
+                        placeholder="Email Address"
+                        title="Please enter a valid email address"
+                    />                   
+                </div>
+            </div>
+
+            <!-- Input container 2 -->
+            <div class="input-container">
+                <div class="inner-input-container">
+                    <lucide-icon 
+                        [img]="Password" 
+                        [size]="20"
+                        class="lucide-icon">
+                    </lucide-icon>
+                    <input 
+                        name="password"
+                        type="password"
+                        placeholder="Password"
+                        title="Please enter a valid password"
+                    />
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Form actions -->
+        <div class="form-action-container">
+
+            <!-- Forgot Password link -->
+            <a class="forgot-password-link" href="/auth/user/forgot-password">Forgot Password?</a>
+
+            <!-- Form buttons -->
+            <div class="form-btn-container">
+
+                <!-- Primary login button -->
+                <app-btn type="big" label="Login"></app-btn>
+
+                <div class="hr-line">
+                    <hr />
+                    <span>or</span>
+                    <hr />
+                </div>
+
+                <!-- Form oauth buttons -->
+                <div class="form-oauth-btn-container">
+                    <p>Continue With Your Social Media Account</p>
+
+                    <div class="inner-form-oauth-btn-container">
+                        <img
+                            src="/google-logo.svg"
+                            width="50px"
+                            height="50px"
+                        />
+                        <img
+                            src="/discord-logo.svg"
+                            width="50px"
+                            height="50px"
+                        />
+                        <img
+                            src="/facebook-logo.svg"
+                            width="50px"
+                            height="50px"
+                        />                                                
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </app-forms>
+
+</div>

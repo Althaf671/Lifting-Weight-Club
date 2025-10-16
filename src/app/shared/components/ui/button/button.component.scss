@@ -1,32 +1,42 @@
 button {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s all;
+    padding: 0.45rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.2s all;
+    letter-spacing: 0.25px;
 
-  &.primary {
-    background-color: #007bff;
-    color: white;
-  }
+    &.primary {
+      background-color: #262626;
+      color: white;
+    }
 
-  &.secondary {
-    background-color: #6c757d;
-    color: white;
-  }
+    &.secondary {
+      background-color: #1a6a3a;
+      color: white;
+    }
 
-  &.danger {
-    background-color: #dc3545;
-    color: white;
-  }
+    &.danger {
+      background-color: #d02522;
+      color: white;
+    }
 
-  &:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
+    &.big {
+      background-color: #262626;
+      color: white;
+      width: 260px;
+      height: 45px;
+      border-radius: 50px;
+      font-weight: 600;
+    }
 
-  &:hover:not(:disabled) {
-    opacity: 0.85;
-  }
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    &:hover:not(:disabled) {
+      opacity: 0.85;
+    }
 }

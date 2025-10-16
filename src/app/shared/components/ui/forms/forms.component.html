@@ -1,0 +1,21 @@
+<form [class]="'form' + containerClass" >
+
+    <!-- Form header -->
+    <div class="upper-form">
+        <h1>{{ title }}</h1>
+        <div class="form-header-description">
+            <p>{{ description }}</p>
+            <a href="/auth/user/register">{{ miscDescription }}</a>
+        </div>
+    </div>
+
+    <!-- Form content -->
+    <ng-content></ng-content>
+
+    <!-- Form footer -->
+    <footer>
+        <p>By signing in with your account, you agree with LWC's 
+           <a>Terms of Service</a> and <a>Privacy Policy</a>
+        </p>
+    </footer>
+</form>

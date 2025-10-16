@@ -11,9 +11,9 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
 })
 export class ButtonComponent {
 
-    @Input() label: string = 'Button';
+    @Input() label: string = 'Submit';
 
-    @Input() type: 'primary' | 'secondary' | 'default' | 'danger' = 'primary'; 
+    @Input() type: 'primary' | 'secondary' | 'default' | 'danger' | 'big' = 'primary'; 
 
     @Input() disabled: boolean = false;
 
