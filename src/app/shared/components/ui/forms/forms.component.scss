@@ -3,13 +3,16 @@
     padding: 2rem;
     width: 85vw;
     height: 77.5vh;
-    max-width: 500px;
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 650px;
     margin-top: 4rem;
     color: black;
 
     .upper-form {
         width: 100%;
         height: 17.5%;
+        user-select: none;
 
         h1 {
             font-size: 1.75rem;

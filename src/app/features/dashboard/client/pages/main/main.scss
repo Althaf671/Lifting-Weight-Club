@@ -1,0 +1,217 @@
+.dashboard-page {
+    position: relative;
+    width: 100dvw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100dvw;
+    background-color: #101010;
+    background-image: radial-gradient(ellipse, rgba(255, 255, 255, 0.099) 1px, transparent 1px);
+    background-size: 19px 19px;
+    background-position: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+
+    .upper-dashboard {
+        height: 7vh;
+        width: 100%;
+        min-width: 320px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .username-display {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h2 {
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 13px;
+                opacity: 60%;
+                letter-spacing: 0.5px;
+            }
+        }
+
+        .menu-btn, .notification-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 17.5%;
+            height: 100%;
+
+            background-color: #262626;
+            border-radius: 16px;
+
+            .lucide-icon {
+                margin-top: 0.1rem;
+            }
+        }
+    }
+
+    .dashboard-body {
+        height: 35.5vh;
+        width: 100%;
+        min-width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+
+        .card-carousel-container {
+            width: 100%;
+            height: 81%;
+
+            .plan-card {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                border-radius: 16px;
+                background-color: #3d3d3c;
+
+                .card-count {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    opacity: 60%;
+                    font-size: 11px;
+                    padding: 0.5rem 0.75rem 0rem 0;
+                }
+
+                input {
+                    position: absolute;
+                    width: 100%;
+                    opacity: 0%;
+                    inset: 0;
+                    z-index: 99;
+                }
+
+                input:checked ~ article .back {
+                    transform: rotateY(0);
+                }
+
+                input:checked ~ article .front {
+                    transform: rotateY(-180deg);
+                }
+
+                article {
+                    position: relative;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 85%;
+                    perspective: 1000px;
+                    border-radius: 16px;
+                    
+                    .front {
+                        width: 100%;
+                        position: absolute;
+                        inset: 0;
+                        backface-visibility: hidden;
+                        transition: 0.4s;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 1.5rem;
+                        background-color: #f88a36;
+                        border-radius: 16px;
+
+                        img {
+                            position: absolute;
+                        }
+
+                        .left-plan-card {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            width: 50%;
+                            height: 100%;
+
+                            h3 {
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                        }
+
+                        .right-plan-card {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-end;
+                            width: 50%;
+                            height: 100%;
+                        }
+                    }
+
+                    .back {
+                       position: absolute;
+                       transform: rotateY(180deg);
+                       inset: 0;
+                       place-items: center;
+                       backface-visibility: hidden;
+                       transition: 0.4s;
+                       background-color: whitesmoke;
+                       color: black;
+                       padding: 1.5rem;
+                       border-radius: 16px;
+                    }
+                }
+            }
+        }
+
+        .actions-card {
+            width: 100%;
+            height: 19%;       
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .manage-shortcut-btn, .history-shortcut-btn {
+                width: 47.5%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
+
+                background-color: #3d3d3c;
+                border-radius: 12px;
+            }
+
+        }
+    }
+
+    .lower-dashboard {
+        height: 30vh;
+        width: 100%;
+        min-width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+
+        .lower-dashboard-header {
+            width: 100%;
+            height: 10%;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .inner-lower-dashboard {
+            border-radius: 16px;
+            background-color: #262626;
+            width: 100%;
+            height: 90%;
+        }
+    }
+}

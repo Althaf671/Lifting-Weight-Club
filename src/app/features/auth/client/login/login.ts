@@ -21,7 +21,7 @@ import { ButtonComponent } from '../../../../shared/components/ui/button/button.
 })
 export class Login {
 
-  // Lucide icons
-  readonly Email = Mail;
-  readonly Password = LockKeyhole;
+    // Lucide icons
+    readonly Email = Mail;
+    readonly Password = LockKeyhole;
 }

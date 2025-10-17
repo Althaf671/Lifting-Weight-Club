@@ -4,10 +4,7 @@ import { ButtonComponent } from '../button/button.component';
 
 @Component({
   selector: 'app-forms',
-  imports: [
-    ButtonComponent,
-    ReactiveFormsModule
-  ],
+  imports: [ReactiveFormsModule],
   templateUrl: './forms.component.html',
   styleUrl: './forms.component.scss'
 })
