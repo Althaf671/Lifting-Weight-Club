@@ -17,9 +17,9 @@
             <p>@althafmail11</p>
         </div>
 
-        <div class="notification-btn">
+        <div class="qr-btn">
             <lucide-icon
-                [img]="Notification"
+                [img]="QrCode"
                 [size]="22"
                 [strokeWidth]="2.5"
                 class="lucide-icon"
@@ -33,23 +33,54 @@
 
         <!-- Card carousel -->
         <div class="card-carousel-container">
+
+            <!-- Card -->
             <div class="plan-card">
                 <input type="checkbox" />
                 <article>
-                    <div class="front">
+                    <div class="front">                       
                         <div class="left-plan-card">
-                            <p>Plan test</p>
-                            <p>28/12/25</p>
+                            <div class="upper-left-plan-card">
+                                <p class="plan-name">Weekly Plan</p>
+                                <p class="logo">Member</p>
+                            </div>
+                            <p class="plan-expiration">28/12/25</p>
                         </div>
                         <div class="right-plan-card">
-                            <p>Active test</p>
+                            <div class="inner-right-plan-card">
+                                <p>Active</p>
+                                <lucide-icon
+                                    [img]="Dot"
+                                    [strokeWidth]="4"
+                                    color="#059b41"
+                                    class="lucide-icon"
+                                />                                
+                            </div>                              
                         </div>                        
                     </div>
                     <div class="back">
-                        <p>back test</p>
+                        <div class="left-back">
+                            <p class="name">Name: Althaf</p>
+                            <div class="info-body">
+                                <p class="plan-id">Plan ID: 123-345-568</p>
+                                <p class="plan-name">Plan name: Weekly</p>
+                                <p class="member-since">Started at: 28/11/25</p>
+                                <p class="expired-at">Expired at: 28/12/25</p>                                
+                            </div>
+                            <p class="logo">Membership card</p>
+                        </div>
+                        <div class="right-back">
+                            <img
+                                src="/github-redirect.svg"
+                                class="my-qr"
+                            />
+                        </div>
                     </div>
                 </article>
-                <p class="card-count">1/5 plans</p>
+                <div class="card-action-container">
+                    <p class="change-plan">Change plan</p>
+                    <p class="card-count">1/3 plans</p>                    
+                </div>
             </div>
         </div>
 
@@ -71,7 +102,7 @@
                     [strokeWidth]="2"
                     class="lucide-icon"
                 />                  
-                <p>View all plan </p>
+                <p>QR history</p>
             </div>
         </div>
 

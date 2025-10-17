@@ -1,0 +1,201 @@
+Date : 2025-10-17 11:53:59
+Directory : /Users/althaf/Desktop/Web Development/lwc-dashboard
+Total : 121 files,  11655 codes, 73 comments, 425 blanks, all 12153 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          5 |      9,964 |          4 |          5 |      9,973 |
+| TypeScript         |         61 |        824 |         29 |        220 |      1,073 |
+| SCSS               |         24 |        503 |          6 |         98 |        607 |
+| HTML               |         24 |        290 |         32 |         77 |        399 |
+| Markdown           |          3 |         39 |          0 |         24 |         63 |
+| JSON with Comments |          1 |         32 |          2 |          1 |         35 |
+| XML                |          3 |          3 |          0 |          0 |          3 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                             |        121 |     11,655 |         73 |        425 |     12,153 |
+| . (Files)                                                                                                                     |          7 |     10,033 |          6 |         30 |     10,069 |
+| public                                                                                                                        |          3 |          3 |          0 |          0 |          3 |
+| src                                                                                                                           |        111 |      1,619 |         67 |        395 |      2,081 |
+| src (Files)                                                                                                                   |          5 |         77 |         30 |         17 |        124 |
+| src/app                                                                                                                       |        104 |      1,542 |         37 |        376 |      1,955 |
+| src/app (Files)                                                                                                               |          8 |         73 |          0 |         20 |         93 |
+| src/app/core                                                                                                                  |          1 |          1 |          0 |          0 |          1 |
+| src/app/features                                                                                                              |         74 |      1,292 |         32 |        303 |      1,627 |
+| src/app/features/auth                                                                                                         |         35 |        693 |         23 |        154 |        870 |
+| src/app/features/auth (Files)                                                                                                 |          1 |         17 |          0 |          1 |         18 |
+| src/app/features/auth/admin                                                                                                   |          9 |         75 |          0 |         23 |         98 |
+| src/app/features/auth/admin (Files)                                                                                           |          1 |         19 |          0 |          1 |         20 |
+| src/app/features/auth/admin/login                                                                                             |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/auth/admin/two-factor                                                                                        |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/auth/client                                                                                                  |         25 |        601 |         23 |        130 |        754 |
+| src/app/features/auth/client (Files)                                                                                          |          1 |         39 |          0 |          1 |         40 |
+| src/app/features/auth/client/forgot-password                                                                                  |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/auth/client/login                                                                                            |          4 |        219 |         11 |         42 |        272 |
+| src/app/features/auth/client/register                                                                                         |          4 |        231 |         12 |         43 |        286 |
+| src/app/features/auth/client/reset-password                                                                                   |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/auth/client/two-factor                                                                                       |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/auth/client/verify-email                                                                                     |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard                                                                                                    |         39 |        599 |          9 |        149 |        757 |
+| src/app/features/dashboard (Files)                                                                                            |          1 |         17 |          0 |          1 |         18 |
+| src/app/features/dashboard/admin                                                                                              |         21 |        169 |          0 |         56 |        225 |
+| src/app/features/dashboard/admin/pages                                                                                        |         17 |        141 |          0 |         45 |        186 |
+| src/app/features/dashboard/admin/pages (Files)                                                                                |          1 |         29 |          0 |          1 |         30 |
+| src/app/features/dashboard/admin/pages/finance                                                                                |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/admin/pages/main                                                                                   |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/admin/pages/management                                                                             |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/admin/pages/setting                                                                                |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/admin/shared                                                                                       |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/admin/shared/sidebar                                                                               |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/client                                                                                             |         17 |        413 |          9 |         92 |        514 |
+| src/app/features/dashboard/client (Files)                                                                                     |          1 |         29 |          0 |          1 |         30 |
+| src/app/features/dashboard/client/pages                                                                                       |         16 |        384 |          9 |         91 |        484 |
+| src/app/features/dashboard/client/pages/main                                                                                  |          4 |        300 |          9 |         58 |        367 |
+| src/app/features/dashboard/client/pages/management                                                                            |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/client/pages/notification                                                                          |          4 |         28 |          0 |         11 |         39 |
+| src/app/features/dashboard/client/pages/setting                                                                               |          4 |         28 |          0 |         11 |         39 |
+| src/app/shared                                                                                                                |         21 |        176 |          5 |         53 |        234 |
+| src/app/shared (Files)                                                                                                        |          1 |          1 |          0 |          0 |          1 |
+| src/app/shared/components                                                                                                     |         20 |        175 |          5 |         53 |        233 |
+| src/app/shared/components/ui                                                                                                  |         20 |        175 |          5 |         53 |        233 |
+| src/app/shared/components/ui/badge                                                                                            |          4 |         10 |          1 |          6 |         17 |
+| src/app/shared/components/ui/button                                                                                           |          4 |         62 |          1 |         14 |         77 |
+| src/app/shared/components/ui/card                                                                                             |          4 |          0 |          0 |          4 |          4 |
+| src/app/shared/components/ui/forms                                                                                            |          4 |        103 |          3 |         25 |        131 |
+| src/app/shared/components/ui/modal                                                                                            |          4 |          0 |          0 |          4 |          4 |
+| src/env                                                                                                                       |          2 |          0 |          0 |          2 |          2 |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                      | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/README.md                                                                 | Markdown           |         37 |          0 |         24 |         61 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/angular.json                                                              | JSON               |        103 |          0 |          1 |        104 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/package-lock.json                                                         | JSON               |      9,779 |          0 |          1 |      9,780 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/package.json                                                              | JSON               |         55 |          0 |          1 |         56 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/public/discord-logo.svg                                                   | XML                |          1 |          0 |          0 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/public/facebook-logo.svg                                                  | XML                |          1 |          0 |          0 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/public/google-logo.svg                                                    | XML                |          1 |          0 |          0 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.config.server.ts                                              | TypeScript         |         10 |          0 |          3 |         13 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.config.ts                                                     | TypeScript         |         11 |          0 |          3 |         14 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.html                                                          | HTML               |          3 |          0 |          3 |          6 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.routes.server.ts                                              | TypeScript         |          7 |          0 |          2 |          9 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.routes.ts                                                     | TypeScript         |         11 |          0 |          2 |         13 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.scss                                                          | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.spec.ts                                                       | TypeScript         |         20 |          0 |          4 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/app.ts                                                            | TypeScript         |         11 |          0 |          2 |         13 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/core/readme.md                                                    | Markdown           |          1 |          0 |          0 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/admin.routes.ts                               | TypeScript         |         19 |          0 |          1 |         20 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/login/login.html                              | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/login/login.scss                              | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/login/login.spec.ts                           | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/login/login.ts                                | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/two-factor/two-factor.html                    | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/two-factor/two-factor.scss                    | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/two-factor/two-factor.spec.ts                 | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/admin/two-factor/two-factor.ts                      | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/auth.routes.ts                                      | TypeScript         |         17 |          0 |          1 |         18 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/client.route.ts                              | TypeScript         |         39 |          0 |          1 |         40 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/forgot-password/forgot-password.html         | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/forgot-password/forgot-password.scss         | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/forgot-password/forgot-password.spec.ts      | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/forgot-password/forgot-password.ts           | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/login/login.html                             | HTML               |         71 |         10 |         17 |         98 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/login/login.scss                             | SCSS               |        106 |          0 |         16 |        122 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/login/login.spec.ts                          | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/login/login.ts                               | TypeScript         |         24 |          1 |          3 |         28 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/register/register.html                       | HTML               |         86 |         11 |         18 |        115 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/register/register.scss                       | SCSS               |        106 |          0 |         16 |        122 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/register/register.spec.ts                    | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/register/register.ts                         | TypeScript         |         21 |          1 |          3 |         25 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/reset-password/reset-password.html           | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/reset-password/reset-password.scss           | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/reset-password/reset-password.spec.ts        | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/reset-password/reset-password.ts             | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/two-factor/two-factor.html                   | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/two-factor/two-factor.scss                   | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/two-factor/two-factor.spec.ts                | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/two-factor/two-factor.ts                     | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/verify-email/verify-email.html               | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/verify-email/verify-email.scss               | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/verify-email/verify-email.spec.ts            | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/auth/client/verify-email/verify-email.ts                 | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/admin.routes.ts                    | TypeScript         |         29 |          0 |          1 |         30 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/finance/finance.html               | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/finance/finance.scss               | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/finance/finance.spec.ts            | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/finance/finance.ts                 | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/main/main.html                     | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/main/main.scss                     | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/main/main.spec.ts                  | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/main/main.ts                       | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/management/management.html         | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/management/management.scss         | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/management/management.spec.ts      | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/management/management.ts           | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/setting/setting.html               | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/setting/setting.scss               | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/setting/setting.spec.ts            | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/pages/setting/setting.ts                 | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/shared/sidebar/sidebar.html              | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/shared/sidebar/sidebar.scss              | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/shared/sidebar/sidebar.spec.ts           | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/admin/shared/sidebar/sidebar.ts                | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/client.routes.ts                        | TypeScript         |         29 |          0 |          1 |         30 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/main/main.html                    | HTML               |         79 |          8 |         17 |        104 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/main/main.scss                    | SCSS               |        185 |          0 |         32 |        217 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/main/main.spec.ts                 | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/main/main.ts                      | TypeScript         |         18 |          1 |          3 |         22 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/management/management.html        | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/management/management.scss        | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/management/management.spec.ts     | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/management/management.ts          | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/notification/notification.html    | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/notification/notification.scss    | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/notification/notification.spec.ts | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/notification/notification.ts      | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/setting/setting.html              | HTML               |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/setting/setting.scss              | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/setting/setting.spec.ts           | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/client/pages/setting/setting.ts                | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/features/dashboard/dashboard.routes.ts                            | TypeScript         |         17 |          0 |          1 |         18 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/badge/badge.component.html                   | HTML               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/badge/badge.component.scss                   | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/badge/badge.component.spec.ts                | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/badge/badge.component.ts                     | TypeScript         |         10 |          1 |          3 |         14 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/button/button.component.html                 | HTML               |          7 |          0 |          0 |          7 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/button/button.component.scss                 | SCSS               |         36 |          0 |          6 |         42 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/button/button.component.spec.ts              | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/button/button.component.ts                   | TypeScript         |         19 |          1 |          7 |         27 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/card/card.component.html                     | HTML               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/card/card.component.scss                     | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/card/card.component.spec.ts                  | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/card/card.component.ts                       | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/forms/forms.component.html                   | HTML               |         15 |          3 |          4 |         22 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/forms/forms.component.scss                   | SCSS               |         55 |          0 |          8 |         63 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/forms/forms.component.spec.ts                | TypeScript         |         18 |          0 |          6 |         24 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/forms/forms.component.ts                     | TypeScript         |         15 |          0 |          7 |         22 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/modal/modal.component.html                   | HTML               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/modal/modal.component.scss                   | SCSS               |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/modal/modal.component.spec.ts                | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/components/ui/modal/modal.component.ts                     | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/app/shared/readme.md                                                  | Markdown           |          1 |          0 |          0 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/env/env.prod.ts                                                       | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/env/env.ts                                                            | TypeScript         |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/index.html                                                            | HTML               |         15 |          0 |          1 |         16 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/main.server.ts                                                        | TypeScript         |          6 |          0 |          3 |          9 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/main.ts                                                               | TypeScript         |          5 |          0 |          2 |          7 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/server.ts                                                             | TypeScript         |         36 |         24 |          9 |         69 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/src/styles.scss                                                           | SCSS               |         15 |          6 |          2 |         23 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/tsconfig.app.json                                                         | JSON               |         15 |          2 |          1 |         18 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/tsconfig.json                                                             | JSON with Comments |         32 |          2 |          1 |         35 |
+| /Users/althaf/Desktop/Web Development/lwc-dashboard/tsconfig.spec.json                                                        | JSON               |         12 |          2 |          1 |         15 |
+| Total                                                                                                                         |                    |     11,655 |         73 |        425 |     12,153 |
++-------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

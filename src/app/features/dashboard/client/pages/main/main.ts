@@ -1,6 +1,16 @@
 import { Component } from '@angular/core';
-import { Bell, ChartColumnBig, Dock, History, LucideAngularModule, Menu, NotepadText } from 'lucide-angular';
-import { ScrollText } from 'lucide-angular/src/icons';
+import { 
+  Bell, 
+  Dock, 
+  Dot, 
+  History, 
+  LucideAngularModule, 
+  Menu, 
+  NotepadText,
+  QrCode,
+  ScanQrCode,
+  SquareArrowRight
+} from 'lucide-angular';
 
 @Component({
   selector: 'app-main',
@@ -18,4 +28,7 @@ export class Main {
     readonly Dock = Dock;
     readonly HistoryIcon = History;
     readonly NotepadText = NotepadText;
+    readonly Dot = Dot;
+    readonly QrCode = ScanQrCode;
+    readonly ChangePlan = SquareArrowRight;
 }

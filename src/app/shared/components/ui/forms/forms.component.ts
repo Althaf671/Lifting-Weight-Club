@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { FormControl, ReactiveFormsModule } from '@angular/forms';
-import { ButtonComponent } from '../button/button.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-forms',
